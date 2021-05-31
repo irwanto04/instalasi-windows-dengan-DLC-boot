@@ -1,0 +1,37 @@
+CARA INSTAL WINDOWS MENGGUNAKAN DLC BOOT
+
+Langkahnya :
+-Download DLC Boot
+-Download file ISO Windows yang akan di instal, kalau punya CD Windows ori, kita buat file ISOnya dengan DLC boot juga.
+
+Cara Buat File ISO dengan UltraISO, yang tool ultraISO juga ada dalam DLC Boot yaitu di bagian Utilities:
+-Setelah download DLC Boot selesai, ekstrak dan jalankan DLCBoot.exe  (klik kanan Run as administrator)
+-Muncul tampilan DLC Boot dan klik Utilities, maka akan muncul beberapa tool di situ, Pilih UltraISO
+-Muncul tampilan UltraISO seperti di bawah ini, untuk nama CD sesuai dengan jam dan tanggal saat menjalankan UltraISO tersebut
+Akses CD/ DVD letak file windows yang akan di buat ISO tersebut , maka file windows akan tampil di bagian bawah . File windows kita select all dan drag ke atas, lalu save kemudian beri nama file tersebut, misal nama file : windows
+Klik save dan tunggu sampai selesai.
+
+Langkah instal windows bagaimana? kita harus tahu cara menggunakan DLC Boot ini, kita  buat DLC Boot boatable di flashdisk juga, karena saat akan menginstal windows kita booting DLC Boot lewat flashdisk. Buat bootable tidak usah pakai tool lain seperti rufus, tapi cukup dengan DLC Boot sendiri.
+-Jalankan DLC Boot di komputer dengan klik kanan DLCBoot.exe, Run as administrator
+-Muncul tampilan DLC Boot, klik icon flashdisk di pojok kanan atas 
+-boot kernel pilih SysLinux, Boot type hide , USB Format FAT32 agar bisa UEFI dan jangan lupa di isi partisi DLC Boot 3000 MB (3G). Kalau sudah yakin baru klik Create Boot.
+Setelah klik Create Boot akan muncul seperti ini, klik Yes format pakai FAT32
+Setelah klik yes file akan mulai di copykan ke flashdisk, harap tunggu sampai complete, diawal akan seperti not responding, nanti akan berjalan juga.
+Setelah selesai, coba klik Test Boot, dan lanjutkan klik Run Qemu
+Tunggu beberapa saat, maka muncul tampilan booting DLC Boot ini
+
+Lengkap sudah yang dibutuhkan untuk instal windows
+Lalu Copy file ISO windows ke partisi data di flashdisk yang kita buat tadi, yang partisi booting DLC Boot tidak terlihat di windows.
+Terus bagaimana selanjutnya ?
+Siapkan komputer atau laptop yang akan di instal windows, tancapkan flashdisk yang sudah ada DLC Bootnya tadi dan masuk ke pengaturan UEFI untuk setting agar bisa booting lewat USB Flashdisk, kalau sudah simpan pengaturan dan tunggu sampai booting ke DLC Boot.
+Setelah booting akan ada tampilan seperti di atas, pilih saja Mini Windows 10 64Bit atau Mini Windows 10 32Bit
+
+Jika hardisk yang akan kita instal windows belum dipartisi dan ingin dibagi menjadi beberapa drive misal drive C , D  dan seterusnya,  bisa dipartisi saat ini juga dengan tool partisi, klik Disk Tool.
+Kita bisa pilih tool untuk partisi misalnya Partition Wizard, mudah kok cara menggunakannya. Setelah semua persiapan selesai ( terserah kita ingin dibagi dulu atau tidak hardisk) maka langkah selanjutnya cari FILE ISO WINDOWS yang sudah kita copy kan ke USB-DATA.
+Masuk di This PC atau File Explorer untuk cari file iso tersebut, kalau usdah ketemu , klik kanan file ISO dan pilih Mount as ImDisk Virtual Disk. Lanjutkan step-step berikutnya seperti instal windows pada umumnya. Semoga berhasil
+Setelah Mount as Imdisk Virtual Disk, lihat di CD Drive, klik CD Drive dan pilih setup.exe dari file windows untuk memulai instalisasi.
+Kemudian tunggu sampai selesai proses instalasi sampai laptop atau pc akan melakukan restart secara otomatis.
+kelebihan menggunkan DLC boot ini untuk menginstal adalah proses instalasinya hanya selama 7 menit.
+
+
+
