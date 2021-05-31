@@ -1,0 +1,5 @@
+CARA SETTING UEFI DAN LEGACY
+-Masuk BIOS/UEFI dengan mengikuti panduan cara masuk dan setting BIOS/UEFI.
+-Klik pada tab Boot > Pada bagian BOOT mode pilih boot mode yang kamu inginkan (UEFI/Legacy/UEFI+legacy support).
+-Simpan settingan BIOS/UEFI dengan tombol f10.
+-Otomatis komputer akan restart.
