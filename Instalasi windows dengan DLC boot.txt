@@ -1,5 +1,9 @@
 CARA INSTAL WINDOWS MENGGUNAKAN DLC BOOT
 
+Fungsi DLC Boot:
+DLC Boot mempunyai berbagai macam fungsi  seperti menyelamatkan data pada saat sebuah PC/Laptop dalam keadaan blank atau tidak dapat booting dan masih banyak lagi. 
+Sebagai contoh jika anda mempunyai Laptop yang lagi blank atau tidak mau masuk ke windows. Telah berbagai cara anda lakukan untuk meRepairnya seperti mengembalikan system yang hilang namun sama aja tidak mau booting atau masuk ke windows. Akhirnya anda ingin menginstal ulang aja windowsnya, tetapi data anda di Drive dimana anda format pada saat menginstal ulang windows. Kita bilang aja itu Drive C lalu anda ingin memindahkan data tersebut ke dalam Drive D, tetapi apa daya karena laptop sudah blank atau tidak mau masuk ke windows.
+
 Langkahnya :
 -Download DLC Boot
 -Download file ISO Windows yang akan di instal, kalau punya CD Windows ori, kita buat file ISOnya dengan DLC boot juga.
