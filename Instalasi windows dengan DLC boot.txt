@@ -5,8 +5,8 @@ DLC Boot mempunyai berbagai macam fungsi  seperti menyelamatkan data pada saat s
 Sebagai contoh jika anda mempunyai Laptop yang lagi blank atau tidak mau masuk ke windows. Telah berbagai cara anda lakukan untuk meRepairnya seperti mengembalikan system yang hilang namun sama aja tidak mau booting atau masuk ke windows. Akhirnya anda ingin menginstal ulang aja windowsnya, tetapi data anda di Drive dimana anda format pada saat menginstal ulang windows. Kita bilang aja itu Drive C lalu anda ingin memindahkan data tersebut ke dalam Drive D, tetapi apa daya karena laptop sudah blank atau tidak mau masuk ke windows.
 
 Langkahnya :
--Download DLC Boot
 -Download file ISO Windows yang akan di instal, kalau punya CD Windows ori, kita buat file ISOnya dengan DLC boot juga.
+-Untuk mendownload DLC boot dan file iso, bisa di search di google. sudah banyak website dan cara mendownload DLC Boot dan juga file iso
 
 Cara Buat File ISO dengan UltraISO, yang tool ultraISO juga ada dalam DLC Boot yaitu di bagian Utilities:
 -Setelah download DLC Boot selesai, ekstrak dan jalankan DLCBoot.exe  (klik kanan Run as administrator)
